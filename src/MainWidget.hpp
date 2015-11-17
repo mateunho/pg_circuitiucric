@@ -17,6 +17,11 @@ public:
     explicit MainWidget(QWidget *parent = 0);
     ~MainWidget();
 
+private slots:
+    void on_pushAdd_clicked();
+
+    void on_pushRemove_clicked();
+
 private:
     Ui::MainWidget *ui;
 };
