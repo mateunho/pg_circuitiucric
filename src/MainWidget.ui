@@ -17,7 +17,7 @@
    <item>
     <layout class="QGridLayout" name="gridLayout">
      <item row="1" column="0">
-      <widget class="QSpinBox" name="spin_width">
+      <widget class="QSpinBox" name="spinWidth">
        <property name="alignment">
         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
        </property>
@@ -30,21 +30,21 @@
       </widget>
      </item>
      <item row="3" column="1">
-      <widget class="QLineEdit" name="line_input">
+      <widget class="QLineEdit" name="lineInput">
        <property name="enabled">
         <bool>false</bool>
        </property>
       </widget>
      </item>
      <item row="1" column="1">
-      <widget class="QSpinBox" name="spin_element">
+      <widget class="QSpinBox" name="spinElement">
        <property name="alignment">
         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
        </property>
       </widget>
      </item>
      <item row="3" column="0">
-      <widget class="QPushButton" name="push_raw">
+      <widget class="QPushButton" name="pushRaw">
        <property name="text">
         <string>raw input</string>
        </property>
@@ -60,14 +60,14 @@
       </widget>
      </item>
      <item row="3" column="2">
-      <widget class="QPushButton" name="push_remove">
+      <widget class="QPushButton" name="pushRemove">
        <property name="text">
         <string>pop back</string>
        </property>
       </widget>
      </item>
      <item row="1" column="2">
-      <widget class="QPushButton" name="push_add">
+      <widget class="QPushButton" name="pushAdd">
        <property name="text">
         <string>push back</string>
        </property>
@@ -78,14 +78,14 @@
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
-      <widget class="QPushButton" name="push_generate">
+      <widget class="QPushButton" name="pushGenerate">
        <property name="text">
         <string>generate</string>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QPlainTextEdit" name="plain_output"/>
+      <widget class="QPlainTextEdit" name="plainOutput"/>
      </item>
     </layout>
    </item>
